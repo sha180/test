@@ -17,6 +17,13 @@ namespace test.Game.Directing
         Box,
         Button
     }
+    public enum TextureType
+    {
+        Box,
+        Player,
+        Button,
+        icon
+    }
     public enum Button
     {
         Play,

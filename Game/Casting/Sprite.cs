@@ -1,4 +1,5 @@
 using Raylib_cs;
+using test.Game.Directing;
 
 namespace test.Game.Casting
 {
@@ -11,6 +12,8 @@ namespace test.Game.Casting
         /// height = the height of the portopn of the png to be displayed
 
         private Rectangle TextureBounds = new Rectangle(posX, posY, width, height);
+
+        private TextureType textureType;
 
         public Sprite() : base()
         {
